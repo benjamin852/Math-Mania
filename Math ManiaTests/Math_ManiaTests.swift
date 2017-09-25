@@ -20,13 +20,7 @@ class Math_ManiaTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        if <#condition#> {
-            <#code#>
-        }
-    }
+  
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

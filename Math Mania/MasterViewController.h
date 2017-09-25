@@ -10,19 +10,11 @@
 #import "GameLogicModel.h"
 
 
-@interface MasterViewController : UIViewController
+@interface MasterViewController : UIViewController 
 
 
-@property (weak, nonatomic) IBOutlet UITextField *inputOne;
-@property (weak, nonatomic) IBOutlet UITextField *inputTwo;
-@property (weak, nonatomic) IBOutlet UITextField *inputThree;
-@property (weak, nonatomic) IBOutlet UITextField *inputFour;
-@property (weak, nonatomic) IBOutlet UITextField *inputFive;
-@property (weak, nonatomic) IBOutlet UITextField *inputSix;
-@property (weak, nonatomic) IBOutlet UITextField *inputSeven;
-
-
-
+@property (weak, nonatomic) IBOutlet UILabel *score;
+@property (weak, nonatomic) IBOutlet UITextField *userInput;
 
 - (IBAction)submitButton:(UIButton *)sender;
 

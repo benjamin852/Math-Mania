@@ -14,7 +14,6 @@
 		9BF99E8C1EBE4239003C8891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF99E8A1EBE4239003C8891 /* LaunchScreen.storyboard */; };
 		9BF99E981EBE4298003C8891 /* GameLogicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF99E971EBE4298003C8891 /* GameLogicModel.m */; };
 		9BF99E9E1EBE5024003C8891 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF99E9D1EBE5024003C8891 /* MasterViewController.m */; };
-		9BF99EA11EC0E5C5003C8891 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF99EA01EC0E5C5003C8891 /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		9BF99E971EBE4298003C8891 /* GameLogicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameLogicModel.m; path = ../GameLogicModel.m; sourceTree = "<group>"; };
 		9BF99E9C1EBE5024003C8891 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		9BF99E9D1EBE5024003C8891 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9BF99E9F1EC0E5C5003C8891 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
-		9BF99EA01EC0E5C5003C8891 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +67,6 @@
 				9BF99E971EBE4298003C8891 /* GameLogicModel.m */,
 				9BF99E9C1EBE5024003C8891 /* MasterViewController.h */,
 				9BF99E9D1EBE5024003C8891 /* MasterViewController.m */,
-				9BF99E9F1EC0E5C5003C8891 /* InputCollector.h */,
-				9BF99EA01EC0E5C5003C8891 /* InputCollector.m */,
 				9BF99E851EBE4239003C8891 /* Main.storyboard */,
 				9BF99E881EBE4239003C8891 /* Assets.xcassets */,
 				9BF99E8A1EBE4239003C8891 /* LaunchScreen.storyboard */,
@@ -120,6 +115,7 @@
 				TargetAttributes = {
 					9BF99E781EBE4239003C8891 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KJ6S4EZLV3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -162,7 +158,6 @@
 			files = (
 				9BF99E811EBE4239003C8891 /* AppDelegate.m in Sources */,
 				9BF99E981EBE4298003C8891 /* GameLogicModel.m in Sources */,
-				9BF99EA11EC0E5C5003C8891 /* InputCollector.m in Sources */,
 				9BF99E9E1EBE5024003C8891 /* MasterViewController.m in Sources */,
 				9BF99E7E1EBE4239003C8891 /* main.m in Sources */,
 			);
@@ -286,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJ6S4EZLV3;
 				INFOPLIST_FILE = "Math Mania/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ben.Math-Mania";
@@ -297,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJ6S4EZLV3;
 				INFOPLIST_FILE = "Math Mania/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ben.Math-Mania";
@@ -323,6 +320,7 @@
 				9BF99E921EBE423A003C8891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

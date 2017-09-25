@@ -34,7 +34,7 @@
 - (void)testExample {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    int wazy = 7;
+    int wazy = 10;
     int belz = 10;
     XCTAssertEqual(wazy, belz);
 }

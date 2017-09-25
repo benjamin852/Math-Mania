@@ -62,6 +62,7 @@
 
 - (BOOL) correctAnswer {
     if (self.currentScore == 100) {
+        NSLog(@"delete this later");
          return YES;
     } else {
         NSLog(@"Wrong. You word equals %ld", self.currentScore);

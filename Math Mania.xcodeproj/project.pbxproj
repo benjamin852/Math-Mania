@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BED6D971F79002800D9C02F /* Math_ManiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED6D961F79002800D9C02F /* Math_ManiaTests.swift */; };
-		9BED6DA51F79027400D9C02F /* Math_ManiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BED6DA41F79027400D9C02F /* Math_ManiaUITests.m */; };
-		9BED6DB31F79417B00D9C02F /* PracticeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BED6DB21F79417B00D9C02F /* PracticeTest.m */; };
+		9BED6DC51F7A440400D9C02F /* MathManiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BED6DC41F7A440400D9C02F /* MathManiaTests.m */; };
 		9BF99E7E1EBE4239003C8891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF99E7D1EBE4239003C8891 /* main.m */; };
 		9BF99E811EBE4239003C8891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF99E801EBE4239003C8891 /* AppDelegate.m */; };
 		9BF99E871EBE4239003C8891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF99E851EBE4239003C8891 /* Main.storyboard */; };
@@ -20,21 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9BED6D991F79002800D9C02F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9BF99E711EBE4239003C8891 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9BF99E781EBE4239003C8891;
-			remoteInfo = "Math Mania";
-		};
-		9BED6DA71F79027400D9C02F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9BF99E711EBE4239003C8891 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9BF99E781EBE4239003C8891;
-			remoteInfo = "Math Mania";
-		};
-		9BED6DB51F79417B00D9C02F /* PBXContainerItemProxy */ = {
+		9BED6DC71F7A440400D9C02F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BF99E711EBE4239003C8891 /* Project object */;
 			proxyType = 1;
@@ -44,15 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9BED6D941F79002800D9C02F /* Math ManiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Math ManiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BED6D961F79002800D9C02F /* Math_ManiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_ManiaTests.swift; sourceTree = "<group>"; };
-		9BED6D981F79002800D9C02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BED6DA21F79027400D9C02F /* Math ManiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Math ManiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BED6DA41F79027400D9C02F /* Math_ManiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Math_ManiaUITests.m; sourceTree = "<group>"; };
-		9BED6DA61F79027400D9C02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BED6DB01F79417B00D9C02F /* PracticeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BED6DB21F79417B00D9C02F /* PracticeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeTest.m; sourceTree = "<group>"; };
-		9BED6DB41F79417B00D9C02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BED6DC21F7A440400D9C02F /* MathManiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathManiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BED6DC41F7A440400D9C02F /* MathManiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathManiaTests.m; sourceTree = "<group>"; };
+		9BED6DC61F7A440400D9C02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF99E791EBE4239003C8891 /* Math Mania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Mania.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF99E7D1EBE4239003C8891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF99E7F1EBE4239003C8891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,21 +46,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BED6D911F79002800D9C02F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BED6D9F1F79027400D9C02F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BED6DAD1F79417B00D9C02F /* Frameworks */ = {
+		9BED6DBF1F7A440300D9C02F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,40 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9BED6D951F79002800D9C02F /* Math ManiaTests */ = {
+		9BED6DC31F7A440400D9C02F /* MathManiaTests */ = {
 			isa = PBXGroup;
 			children = (
-				9BED6D961F79002800D9C02F /* Math_ManiaTests.swift */,
-				9BED6D981F79002800D9C02F /* Info.plist */,
+				9BED6DC41F7A440400D9C02F /* MathManiaTests.m */,
+				9BED6DC61F7A440400D9C02F /* Info.plist */,
 			);
-			path = "Math ManiaTests";
-			sourceTree = "<group>";
-		};
-		9BED6DA31F79027400D9C02F /* Math ManiaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9BED6DA41F79027400D9C02F /* Math_ManiaUITests.m */,
-				9BED6DA61F79027400D9C02F /* Info.plist */,
-			);
-			path = "Math ManiaUITests";
-			sourceTree = "<group>";
-		};
-		9BED6DB11F79417B00D9C02F /* PracticeTest */ = {
-			isa = PBXGroup;
-			children = (
-				9BED6DB21F79417B00D9C02F /* PracticeTest.m */,
-				9BED6DB41F79417B00D9C02F /* Info.plist */,
-			);
-			path = PracticeTest;
+			path = MathManiaTests;
 			sourceTree = "<group>";
 		};
 		9BF99E701EBE4239003C8891 = {
 			isa = PBXGroup;
 			children = (
 				9BF99E7B1EBE4239003C8891 /* Math Mania */,
-				9BED6D951F79002800D9C02F /* Math ManiaTests */,
-				9BED6DA31F79027400D9C02F /* Math ManiaUITests */,
-				9BED6DB11F79417B00D9C02F /* PracticeTest */,
+				9BED6DC31F7A440400D9C02F /* MathManiaTests */,
 				9BF99E7A1EBE4239003C8891 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,9 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				9BF99E791EBE4239003C8891 /* Math Mania.app */,
-				9BED6D941F79002800D9C02F /* Math ManiaTests.xctest */,
-				9BED6DA21F79027400D9C02F /* Math ManiaUITests.xctest */,
-				9BED6DB01F79417B00D9C02F /* PracticeTest.xctest */,
+				9BED6DC21F7A440400D9C02F /* MathManiaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,58 +119,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BED6D931F79002800D9C02F /* Math ManiaTests */ = {
+		9BED6DC11F7A440300D9C02F /* MathManiaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BED6D9D1F79002800D9C02F /* Build configuration list for PBXNativeTarget "Math ManiaTests" */;
+			buildConfigurationList = 9BED6DC91F7A440400D9C02F /* Build configuration list for PBXNativeTarget "MathManiaTests" */;
 			buildPhases = (
-				9BED6D901F79002800D9C02F /* Sources */,
-				9BED6D911F79002800D9C02F /* Frameworks */,
-				9BED6D921F79002800D9C02F /* Resources */,
+				9BED6DBE1F7A440300D9C02F /* Sources */,
+				9BED6DBF1F7A440300D9C02F /* Frameworks */,
+				9BED6DC01F7A440300D9C02F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9BED6D9A1F79002800D9C02F /* PBXTargetDependency */,
+				9BED6DC81F7A440400D9C02F /* PBXTargetDependency */,
 			);
-			name = "Math ManiaTests";
-			productName = "Math ManiaTests";
-			productReference = 9BED6D941F79002800D9C02F /* Math ManiaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9BED6DA11F79027400D9C02F /* Math ManiaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BED6DA91F79027400D9C02F /* Build configuration list for PBXNativeTarget "Math ManiaUITests" */;
-			buildPhases = (
-				9BED6D9E1F79027400D9C02F /* Sources */,
-				9BED6D9F1F79027400D9C02F /* Frameworks */,
-				9BED6DA01F79027400D9C02F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9BED6DA81F79027400D9C02F /* PBXTargetDependency */,
-			);
-			name = "Math ManiaUITests";
-			productName = "Math ManiaUITests";
-			productReference = 9BED6DA21F79027400D9C02F /* Math ManiaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		9BED6DAF1F79417B00D9C02F /* PracticeTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BED6DB71F79417B00D9C02F /* Build configuration list for PBXNativeTarget "PracticeTest" */;
-			buildPhases = (
-				9BED6DAC1F79417B00D9C02F /* Sources */,
-				9BED6DAD1F79417B00D9C02F /* Frameworks */,
-				9BED6DAE1F79417B00D9C02F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9BED6DB61F79417B00D9C02F /* PBXTargetDependency */,
-			);
-			name = PracticeTest;
-			productName = PracticeTest;
-			productReference = 9BED6DB01F79417B00D9C02F /* PracticeTest.xctest */;
+			name = MathManiaTests;
+			productName = MathManiaTests;
+			productReference = 9BED6DC21F7A440400D9C02F /* MathManiaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9BF99E781EBE4239003C8891 /* Math Mania */ = {
@@ -258,19 +164,7 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Ben Weinberg";
 				TargetAttributes = {
-					9BED6D931F79002800D9C02F = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = KJ6S4EZLV3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9BF99E781EBE4239003C8891;
-					};
-					9BED6DA11F79027400D9C02F = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = KJ6S4EZLV3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9BF99E781EBE4239003C8891;
-					};
-					9BED6DAF1F79417B00D9C02F = {
+					9BED6DC11F7A440300D9C02F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = KJ6S4EZLV3;
 						ProvisioningStyle = Automatic;
@@ -297,29 +191,13 @@
 			projectRoot = "";
 			targets = (
 				9BF99E781EBE4239003C8891 /* Math Mania */,
-				9BED6D931F79002800D9C02F /* Math ManiaTests */,
-				9BED6DA11F79027400D9C02F /* Math ManiaUITests */,
-				9BED6DAF1F79417B00D9C02F /* PracticeTest */,
+				9BED6DC11F7A440300D9C02F /* MathManiaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9BED6D921F79002800D9C02F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BED6DA01F79027400D9C02F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BED6DAE1F79417B00D9C02F /* Resources */ = {
+		9BED6DC01F7A440300D9C02F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,27 +217,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BED6D901F79002800D9C02F /* Sources */ = {
+		9BED6DBE1F7A440300D9C02F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BED6D971F79002800D9C02F /* Math_ManiaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BED6D9E1F79027400D9C02F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BED6DA51F79027400D9C02F /* Math_ManiaUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BED6DAC1F79417B00D9C02F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BED6DB31F79417B00D9C02F /* PracticeTest.m in Sources */,
+				9BED6DC51F7A440400D9C02F /* MathManiaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,20 +239,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9BED6D9A1F79002800D9C02F /* PBXTargetDependency */ = {
+		9BED6DC81F7A440400D9C02F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9BF99E781EBE4239003C8891 /* Math Mania */;
-			targetProxy = 9BED6D991F79002800D9C02F /* PBXContainerItemProxy */;
-		};
-		9BED6DA81F79027400D9C02F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9BF99E781EBE4239003C8891 /* Math Mania */;
-			targetProxy = 9BED6DA71F79027400D9C02F /* PBXContainerItemProxy */;
-		};
-		9BED6DB61F79417B00D9C02F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9BF99E781EBE4239003C8891 /* Math Mania */;
-			targetProxy = 9BED6DB51F79417B00D9C02F /* PBXContainerItemProxy */;
+			targetProxy = 9BED6DC71F7A440400D9C02F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,82 +266,27 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9BED6D9B1F79002800D9C02F /* Debug */ = {
+		9BED6DCA1F7A440400D9C02F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KJ6S4EZLV3;
-				INFOPLIST_FILE = "Math ManiaTests/Info.plist";
+				INFOPLIST_FILE = MathManiaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Ben.Math-ManiaTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math Mania.app/Math Mania";
-			};
-			name = Debug;
-		};
-		9BED6D9C1F79002800D9C02F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = KJ6S4EZLV3;
-				INFOPLIST_FILE = "Math ManiaTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Ben.Math-ManiaTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math Mania.app/Math Mania";
-			};
-			name = Release;
-		};
-		9BED6DAA1F79027400D9C02F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = KJ6S4EZLV3;
-				INFOPLIST_FILE = "Math ManiaUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Ben.Math-ManiaUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Math Mania";
-			};
-			name = Debug;
-		};
-		9BED6DAB1F79027400D9C02F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = KJ6S4EZLV3;
-				INFOPLIST_FILE = "Math ManiaUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Ben.Math-ManiaUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Math Mania";
-			};
-			name = Release;
-		};
-		9BED6DB81F79417B00D9C02F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = KJ6S4EZLV3;
-				INFOPLIST_FILE = PracticeTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ben.PracticeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = Ben.MathManiaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math Mania.app/Math Mania";
 			};
 			name = Debug;
 		};
-		9BED6DB91F79417B00D9C02F /* Release */ = {
+		9BED6DCB1F7A440400D9C02F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KJ6S4EZLV3;
-				INFOPLIST_FILE = PracticeTest/Info.plist;
+				INFOPLIST_FILE = MathManiaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ben.PracticeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = Ben.MathManiaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math Mania.app/Math Mania";
 			};
@@ -614,27 +411,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BED6D9D1F79002800D9C02F /* Build configuration list for PBXNativeTarget "Math ManiaTests" */ = {
+		9BED6DC91F7A440400D9C02F /* Build configuration list for PBXNativeTarget "MathManiaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BED6D9B1F79002800D9C02F /* Debug */,
-				9BED6D9C1F79002800D9C02F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9BED6DA91F79027400D9C02F /* Build configuration list for PBXNativeTarget "Math ManiaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BED6DAA1F79027400D9C02F /* Debug */,
-				9BED6DAB1F79027400D9C02F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9BED6DB71F79417B00D9C02F /* Build configuration list for PBXNativeTarget "PracticeTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BED6DB81F79417B00D9C02F /* Debug */,
-				9BED6DB91F79417B00D9C02F /* Release */,
+				9BED6DCA1F7A440400D9C02F /* Debug */,
+				9BED6DCB1F7A440400D9C02F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

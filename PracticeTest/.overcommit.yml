@@ -26,7 +26,7 @@ PreCommit:
      - '**/db/structure.sql' # Ignore trailing whitespace in generated files
 
   NoFocusedExamples:
-    include: ['PracticeTest']
+    include: ['PracticeTest.m']
     enabled: true
     description: 'Checking for temporary focused examples'
 

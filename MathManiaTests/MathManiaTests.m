@@ -25,9 +25,9 @@
 }
 
 - (void)testExample {
-    int wazy = 5;
-    int petruska = 8;
-    XCTAssertEqual(wazy, petruska);
+    int one = 9;
+    int two = 8;
+    XCTAssertEqual(one, two);
 }
 
 - (void)testPerformanceExample {

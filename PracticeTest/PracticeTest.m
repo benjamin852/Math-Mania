@@ -6,6 +6,13 @@
 //  Copyright © 2017 Ben Weinberg. All rights reserved.
 //
 
+
+
+
+
+
+
+
 #import <XCTest/XCTest.h>
 
 @interface PracticeTest : XCTestCase
@@ -27,7 +34,7 @@
 - (void)testExample {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    int wazy = 2;
+    int wazy = 9;
     int belz = 10;
     XCTAssertEqual(wazy, belz);
 }

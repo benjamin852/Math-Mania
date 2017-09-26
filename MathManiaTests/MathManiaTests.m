@@ -26,7 +26,7 @@
 
 - (void)testExample {
     int wazy = 5;
-    int petruska = 1199398;
+    int petruska = 398;
     XCTAssertEqual(wazy, petruska);
 }
 

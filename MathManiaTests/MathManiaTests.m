@@ -25,7 +25,7 @@
 }
 
 - (void)testExample {
-    int one = 87;
+    int one = 887;
     int two = 8;
     XCTAssertEqual(one, two);
 }

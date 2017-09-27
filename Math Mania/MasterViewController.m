@@ -21,8 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.gameLogicInstance = [[GameLogicModel alloc] init];
-    NSLog(@"wazyyyyyyy");
-
 }
 
 - (void)didReceiveMemoryWarning {

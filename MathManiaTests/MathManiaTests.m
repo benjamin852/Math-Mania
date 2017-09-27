@@ -25,16 +25,11 @@
 }
 
 - (void)testExample {
-    int one = 1;
+    int one = 6;
     int two = 8;
     XCTAssertEqual(one, two);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
+
 
 @end

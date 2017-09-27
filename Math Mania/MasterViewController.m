@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.gameLogicInstance = [[GameLogicModel alloc] init];
-    NSLog(@"wazyyyyy");
+    NSLog(@"wazyyyyyyy");
 
 }
 
